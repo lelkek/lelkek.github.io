@@ -1,0 +1,72 @@
+<!DOCTYPE html charset="utf-8">
+<html>
+
+  <head>
+    <title>BA Website v2</title>
+
+    <!--   THEM DANK STYLESHEETS :D   -->
+    <link rel="stylesheet" href="./css/web.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+
+    <!--   ZARYA HANDSOAP META OP   -->
+
+    <meta name="og:description" content="LWDoiwoawoiw oIAJWo idJAOWDijO AJWOIOAoa mwodam oWMAo" />
+    <meta name="og:title" content="axter Websot FTw" />
+    <meta name="og:thumb" content="images/ogthumb.png" />
+
+    <!--   ALL THE SCRIPTS MY DUDE... ALL OF THEM   -->
+
+    <!--   OK THIS IS WHERE THE STUFF ACTUALLY HAPPENS   -->
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <img id="logo" src="images/Baxlogo.png" alt="Baxter Academy Website Credits" title="Baxter Academy">
+
+    <!-- GLOBAL NAVBAR -->
+
+      <ul class="navbar">
+        <li href="opt1.html" class="divided" id="opt1"><a href="opt1.html">About</a></li>
+        <li href="opt2.html" class="divided" id="opt2"><a href="opt2.html">Experience</a></li>
+        <li href="opt3.html" class="divided" id="opt3"><a href="opt3.html">Admissions</a></li>
+        <li href="opt4.html" class="divided" id="opt4"><a href="opt4.html">Academics</a></li>
+        <li href="opt4.html" class="divided" id="opt4"><a href="opt4.html">Flex Friday</a></li>
+        <li href="opt4.html" class="divided" id="opt4"><a href="opt4.html">Support Us</a></li>
+        <li href="opt4.html" class="divided" id="opt4"><a href="opt4.html">Contact</a></li>
+        </li>
+      </ul>
+    </div>
+
+    <!-- END NAVBAR -->
+    <!-- CAROUSEL FOR IMAGES -->
+
+	<div class="regular slider">
+	  <div><div style="background-image: url(./images/carousel/6.png);"></div></div>
+	  <div><img src="./images/carousel/8.jpg"></div>
+    <div><img src="./images/carousel/9.jpg"></div>
+    <div><img src="./images/carousel/13.jpg"></div>
+    <div><img src="./images/carousel/18.jpg"></div>
+    <div><img src="./images/carousel/42.jpg"></div>
+	</div>
+
+  	<!-- IMPORT SCRIPTS AT THE END SO THE WEBPAGE LOADS FASTER -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+    });
+  </script>
+
+  </body>
+</html>
