@@ -25,14 +25,18 @@ button {
   border-radius: 50%;
 }
 
+@media screen and all (min-width: ) {
+
+}
+
 .container {
   display: flex;
   height: 60px;
   position: relative;
   z-index: 10;
--webkit-box-shadow: 0px -71px 100px 34px rgba(0,0,0,1);
--moz-box-shadow: 0px -71px 100px 34px rgba(0,0,0,1);
-box-shadow: 0px -71px 100px 34px rgba(0,0,0,1);
+  -webkit-box-shadow: 0px -71px 100px 34px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px -71px 100px 34px rgba(0, 0, 0, 1);
+  box-shadow: 0px -71px 100px 34px rgba(0, 0, 0, 1);
 }
 
 ul.navbar {
@@ -91,7 +95,7 @@ ul.navbar li a {
 }
 
 .slick-slide {
-  margin: 0px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -104,7 +108,57 @@ ul.navbar li a {
 
 .slick-prev:before,
 .slick-next:before {
-color: grey;
+  color: grey;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.textwrapper {
+  margin: 25px auto;
+  display: flex;
+  flex-direction: row;
+  flex: 3 0px;
+  justify-content: center;
+}
+
+.headers {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 6px;
+}
+
+#righttext {
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+  order: -1;
+  margin-right: 2vw;
+  line-height: 1.5;
+  width: 200px;
+  min-width: 150px;
+}
+
+#lefttext {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  order: 1;
+  margin-left: 2vw;
+  line-height: 1.5;
+  width: 200px;
+}
+
+#maintext {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  text-indent: 20px;
+  letter-spacing: 0.5px;
+  padding: 0px 3vw;
+  border: solid silver;
+  border-width: 0px 1px;
+  width: 40%;
+  order: 0;
 }
 
 #opt1 {
@@ -118,4 +172,34 @@ color: grey;
 
 #home {
   padding-left: 15px;
+}
+
+#pic1 {
+  background: url('http://placekitten.com/1920/540') center center no-repeat;
+  background-size:;
+}
+
+#pic2 {
+  background: url('http://placekitten.com/1920/540') center center no-repeat;
+  background-size: cover;
+}
+
+#pic3 {
+  background: url('http://placekitten.com/1920/540') center center no-repeat;
+  background-size: cover;
+}
+
+#pic4 {
+  background: url('http://placekitten.com/1920/540') center center no-repeat;
+  background-size: cover;
+}
+
+#pic5 {
+  background: url('http://placekitten.com/1920/540') center center no-repeat;
+  background-size: cover;
+}
+
+#pic6 {
+  background: url('http://placekitten.com/1920/540') center center no-repeat;
+  background-size: cover;
 }
