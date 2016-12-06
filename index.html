@@ -27,7 +27,7 @@
     <div class="container">
       <img id="logo" src="images/Baxlogo.png" alt="Baxter Academy Website Credits" title="Baxter Academy">
 
-    <!-- GLOBAL NAVBAR -->
+      <!-- GLOBAL NAVBAR -->
 
       <ul class="navbar">
         <li href="opt1.html" class="divided" id="opt1"><a href="opt1.html">About</a></li>
@@ -52,6 +52,9 @@
     <div style="background: url('http://i.imgur.com/3znHeAM.jpg') center center no-repeat;"></div>
     <div style="background: url('http://i.imgur.com/HTdOoWb.jpg') center center no-repeat;"></div>
   </div>
+
+    <!-- END CAROUSEL -->
+    <!-- START INFO TEXT -->
 
     <div class="textwrapper">
       <div id="righttext">
@@ -91,22 +94,25 @@
         </div>
       </div>
     </div>
+
+      <!-- IMPORT SCRIPTS AT THE END SO THE WEBPAGE LOADS FASTER -->
     
-    <!-- IMPORT SCRIPTS AT THE END SO THE WEBPAGE LOADS FASTER -->
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript">
-    $(document).on('ready', function() {
-      $(".auto").slick({
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: true,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      });
-    });
-  </script>
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+      <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript">
+        $(document).on('ready', function() {
+          $(".auto").slick({
+            autoplay: true,
+            autoplaySpeed: 4000,
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          });
+        });
+
+      </script>
 
   </body>
+
 </html>
