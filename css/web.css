@@ -67,9 +67,11 @@ ul.navbar li a {
   width: 120px;
   text-align: center;
   padding: 21px 0px;
-  font-family: 'Montserrat', sans-serif;
 }
 
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
 .divided:after {
   content: '';
   position: absolute;
