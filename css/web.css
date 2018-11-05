@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
   margin: 0px;
   padding: 0px;
@@ -65,6 +67,7 @@ ul.navbar li a {
   width: 120px;
   text-align: center;
   padding: 21px 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .divided:after {
@@ -99,6 +102,7 @@ ul.navbar li a {
 .slick-slide {
   margin: 0 auto;
   overflow: hidden;
+  min-height: 100%;
 }
 
 .slick-slide img {
